@@ -1,9 +1,5 @@
 //Business Logic
-// function giveMeNumbers(number) {
-//   for (let i = 0; i<= userNumbers; i++) {
-//     const element = i.toString();
-//   }
-// }
+
 
 
 //UI Logic
@@ -12,14 +8,15 @@ $(document).ready(function () {
     event.preventDefault();
     let userNumbers = parseInt(document.getElementById("userNumbers").value);
     console.log(userNumbers);
-    console.log([userNumbers].includes("3"));
+    let stringNum=userNumbers.toString();
+    // (userNumbers.toString().indexOf('3') > -1)
+    while (userNumbers > 0) {
+      if (stringNum.includes(3)) {
+        stringNum.replace("Won't you be my neighbor?");
+      } else if (stringNum.includes(2)) {
+        stringNum.replace("Beep!");
+      } else if (stringNum.includes(1)) {
+        stringNum.replace("Boop?");
+      }
   });
-})
- //   while (userNumbers > 0) {
-  //     if (userNumbers.includes(3)) {
-  //       userNumbers.replace("Won't you be my neighbor?");
-  //   } else if (userNumbers.includes(2)) {
-  //       userNumbers.replace("Beep!");
-  //   } else if (userNumbers.includes(1)) {
-  //     userNumbers.replace("Boop?");
-  // }
+});
