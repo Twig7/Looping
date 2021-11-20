@@ -1,7 +1,6 @@
 //Business Logic
 
 
-
 //UI Logic
 $(document).ready(function () {
   $("#userInput").submit(function (event) {
@@ -18,5 +17,6 @@ $(document).ready(function () {
       } else if (stringNum.includes(1)) {
         stringNum.replace("Boop?");
       }
+      }
+    });
   });
-});
