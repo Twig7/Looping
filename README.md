@@ -12,3 +12,8 @@ Test: "It should return 'found' if the inputted number contains a 3"
 Code: if(stringNum.match(3)) {
 alert('Found');
 Expected Output: Found
+
+Test: "It should reutrn 'found again' if the inputted number contains a 2
+Code:else if(stringNum.match(2)) {
+alert('Found again');
+Expected Output: Found Again
