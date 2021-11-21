@@ -26,3 +26,7 @@ Expected Output: Extra Found
 Test: "It should upkeep importance of which numbers it reads first.
 Code: ''
 Expected Output: Tested above in previous tests. True.
+
+Test: "It should return project requirements if their assigned numbers are matched.
+Code: ''
+Expected Output: True
