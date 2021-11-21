@@ -11,6 +11,9 @@ $(document).ready(function () {
     if(stringNum.match(3)) {
       alert('Found');
     }
+    else if(stringNum.match(2)) {
+      alert('Found again');
+    }
   })
     // while (userNumbers > 0) {
     //   if (stringNum.includes(3)) {
