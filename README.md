@@ -36,13 +36,13 @@ Copyright (c) _10/23/2021_ _Amber Wilwand_
 
 ## Describe: beepBoop()
 
-Test: "It should return an array with a 0 if the number 0 is inputted."
-Code: beepBoop(0);
-Expected output: 0
+- _Test: "It should return an array with a 0 if the number 0 is inputted."_
+  _Code: beepBoop(0);_
+  _Expected output: 0_
 
-Test: "It should return the inputted number."
-Code: let userNumbers = parseInt(document.getElementById("userNumbers").value);
-Expected Output: ""
+- _Test: "It should return the inputted number."_
+  _Code: let userNumbers = parseInt(document.getElementById("userNumbers").value);_
+  _Expected Output: ""_
 
 Test: "It should return 'found' if the inputted number contains a 3"
 Code: if(stringNum.match(3)) {
