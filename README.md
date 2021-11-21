@@ -8,5 +8,7 @@ Test: "It should return the inputted number."
 Code: let userNumbers = parseInt(document.getElementById("userNumbers").value);
 Expected Output: ""
 
-Test: "It should return true if the inputted number contains a 3"
-Code: 
+Test: "It should return 'found' if the inputted number contains a 3"
+Code: if(stringNum.match(3)) {
+alert('Found');
+Expected Output: Found
