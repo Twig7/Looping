@@ -9,10 +9,13 @@ $(document).ready(function () {
     console.log(userNumbers);
     let stringNum=userNumbers.toString();
     if(stringNum.match(3)) {
-      alert('Found');
+      alert("Won't you be my neighbor?");
     }
     else if(stringNum.match(2)) {
-      alert('Found again');
+      alert('Boop!');
+    }
+    else if(stringNum.match(1)) {
+      alert('Beep!');
     }
   })
     // while (userNumbers > 0) {
