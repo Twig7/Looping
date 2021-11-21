@@ -44,25 +44,22 @@ Copyright (c) _10/23/2021_ _Amber Wilwand_
   _Code: let userNumbers = parseInt(document.getElementById("userNumbers").value);_
   _Expected Output: ""_
 
-Test: "It should return 'found' if the inputted number contains a 3"
-Code: if(stringNum.match(3)) {
-alert('Found');
-Expected Output: Found
+- _Test: "It should return 'found' if the inputted number contains a 3"_
+  _Code: if(stringNum.match(3)) { alert('Found');_
+  _Expected Output: Found_
 
-Test: "It should return 'found again' if the inputted number contains a 2
-Code:else if(stringNum.match(2)) {
-alert('Found again');
-Expected Output: Found Again
+- _Test: "It should return 'found again' if the inputted number contains a 2_
+  _Code:else if(stringNum.match(2)) {alert('Found again');_
+  _Expected Output: Found Again_
 
-Test: "it should return "Extra found" if the inputted number contains a 1.
-Code: else if(stringNum.match(1)) {
-alert('Extra found');
-Expected Output: Extra Found
+- _Test: "it should return "Extra found" if the inputted number contains a 1._
+  _Code: else if(stringNum.match(1)) { alert('Extra found');_
+  _Expected Output: Extra Found_
 
-Test: "It should upkeep importance of which numbers it reads first.
-Code: ''
-Expected Output: Tested above in previous tests. True.
+- _Test: "It should upkeep importance of which numbers it reads first._
+  _Code: ''_
+  _Expected Output: Tested above in previous tests. True._
 
-Test: "It should return project requirements if their assigned numbers are matched.
-Code: ''
-Expected Output: True
+- _Test: "It should return project requirements if their assigned numbers are matched._
+  _Code: ''_
+  _Expected Output: True_
