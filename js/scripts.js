@@ -1,11 +1,11 @@
 //Business Logic
 function beepBoop(userNumbers){
-  const myArray = []
+  let myArray = []
 
 for (let i = 0; i < userNumbers; i++) {
   myArray.push(i)
 }
-// let stringNum=userNumbers.toString();
+let stringNum=userNumbers.toString();
 if(stringNum.match(3)) {
   myArray.push("Won't you be my neighbor?");
 }
@@ -26,7 +26,7 @@ $(document).ready(function () {
     let userNumbers = parseInt(document.getElementById("userNumbers").value);
     console.log(userNumbers);
     let output = beepBoop(userNumbers);
-    $("#.result").text(output);
+    $(".result").text(output);
   });
     // while (userNumbers > 0) {
     //   if (stringNum.includes(3)) {
