@@ -63,3 +63,7 @@ Copyright (c) _10/23/2021_ _Amber Wilwand_
 - _Test:_ "It should return project requirements if their assigned numbers are matched.
   _Code:_ ''
   _Expected Output:_ True
+
+- _Test:_ "It should display an array of numbers ranging from 0-number inputted."
+  _Code:_ "for (let i = 0; i < userNumbers; i++)"
+  _Expected Output:_ Array displayed
