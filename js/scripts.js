@@ -3,7 +3,7 @@ function beepBoop(userNumbers){
   let myArray = []
 
 for (let i = 0; i < userNumbers; i++) {
-  myArray.push(i)
+  // myArray.push(i)
   if(i.toString().match(3)) {
     myArray.push("Won't you be my neighbor?");
   }
