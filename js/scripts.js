@@ -27,6 +27,7 @@ $(document).ready(function () {
     console.log(userNumbers);
     let output = beepBoop(userNumbers);
     $(".result").text(output);
+    console.log(result)
   });
     // while (userNumbers > 0) {
     //   if (stringNum.includes(3)) {
